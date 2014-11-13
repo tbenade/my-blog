@@ -1,0 +1,1445 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-4694351430951466803.archive</id><updated>2014-11-13T21:23:26.844+11:00</updated><title type='text'>An Iteration</title><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/archive'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/archive'/><link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/archive'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><generator version='7.00' uri='http://www.blogger.com'>Blogger</generator><entry><id>tag:blogger.com,1999:blog-4694351430951466803.layout</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#template'/><title type='text'>Template: An Iteration</title><content type='text'>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html b:render='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;
+  &lt;head&gt;
+    &lt;b:include data='blog' name='all-head-content'/&gt;
+    &lt;title&gt;&lt;data:blog.pageTitle/&gt;&lt;/title&gt;
+    &lt;meta content='!' name='fragment'/&gt;
+    &lt;meta content='dynamic' name='blogger-template'/&gt;
+    &lt;meta content='IE=9,chrome=1' http-equiv='X-UA-Compatible'/&gt;
+    &lt;meta content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width' name='viewport'/&gt;
+    &lt;b:skin&gt;&lt;![CDATA[/*-----------------------------------------------
+Blogger Template Style
+Name: Dynamic Views
+----------------------------------------------- */
+
+/* Variable definitions
+   ====================
+   &lt;Variable name="keycolor" description="Main Color" type="color" default="#ffffff"
+         variants="#2b256f,#00b2b4,#4ba976,#696f00,#b38f00,#f07300,#d0422c,#f37a86,#7b5341" value="#ffffff"/&gt;
+
+   &lt;Group description="Page"&gt;
+     &lt;Variable name="page.text.font" description="Font" type="font"
+         default="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif" value="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif"/&gt;
+     &lt;Variable name="page.text.color" description="Text Color" type="color"
+         default="#333333" variants="#333333" value="#333333"/&gt;
+     &lt;Variable name="body.background.color" description="Background Color" type="color"
+         default="#EEEEEE"
+         variants="#dfdfea,#d9f4f4,#e4f2eb,#e9ead9,#f4eed9,#fdead9,#f8e3e0,#fdebed,#ebe5e3" value="#EEEEEE"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Variable name="body.background" description="Body Background" type="background"
+       color="#EEEEEE" default="$(color) none repeat scroll top left" value="$(color) none repeat scroll top left"/&gt;
+
+   &lt;Group description="Header"&gt;
+     &lt;Variable name="header.background.color" description="Background Color" type="color"
+         default="#F3F3F3" variants="#F3F3F3" value="#F3F3F3"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Group description="Header Bar"&gt;
+     &lt;Variable name="primary.color" description="Background Color" type="color"
+         default="#333333" variants="#2b256f,#00b2b4,#4ba976,#696f00,#b38f00,#f07300,#d0422c,#f37a86,#7b5341" value="#333333"/&gt;
+     &lt;Variable name="menu.font" description="Font" type="font"
+         default="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif" value="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif"/&gt;
+     &lt;Variable name="menu.text.color" description="Text Color" type="color"
+         default="#FFFFFF" variants="#FFFFFF" value="#FFFFFF"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Group description="Links"&gt;
+     &lt;Variable name="link.font" description="Link Text" type="font"
+         default="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif" value="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif"/&gt;
+     &lt;Variable name="link.color" description="Link Color" type="color"
+         default="#009EB8"
+         variants="#2b256f,#00b2b4,#4ba976,#696f00,#b38f00,#f07300,#d0422c,#f37a86,#7b5341" value="#009EB8"/&gt;
+     &lt;Variable name="link.hover.color" description="Link Hover Color" type="color"
+         default="#009EB8"
+         variants="#2b256f,#00b2b4,#4ba976,#696f00,#b38f00,#f07300,#d0422c,#f37a86,#7b5341" value="#009EB8"/&gt;
+     &lt;Variable name="link.visited.color" description="Link Visited Color" type="color"
+         default="#009EB8"
+         variants="#2b256f,#00b2b4,#4ba976,#696f00,#b38f00,#f07300,#d0422c,#f37a86,#7b5341" value="#009EB8"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Group description="Blog Title"&gt;
+     &lt;Variable name="blog.title.font" description="Font" type="font"
+         default="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif" value="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif"/&gt;
+     &lt;Variable name="blog.title.color" description="Color" type="color"
+         default="#555555" variants="#555555" value="#555555"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Group description="Blog Description"&gt;
+     &lt;Variable name="blog.description.font" description="Font" type="font"
+         default="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif" value="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif"/&gt;
+     &lt;Variable name="blog.description.color" description="Color" type="color"
+         default="#555555" variants="#555555" value="#555555"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Group description="Post Title"&gt;
+     &lt;Variable name="post.title.font" description="Font" type="font"
+         default="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif" value="'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif"/&gt;
+     &lt;Variable name="post.title.color" description="Color" type="color"
+         default="#333333" variants="#333333" value="#333333"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Group description="Date Ribbon"&gt;
+     &lt;Variable name="ribbon.color" description="Color" type="color"
+         default="#666666" variants="#2b256f,#00b2b4,#4ba976,#696f00,#b38f00,#f07300,#d0422c,#f37a86,#7b5341" value="#666666"/&gt;
+     &lt;Variable name="ribbon.hover.color" description="Hover Color" type="color"
+         default="#AD3A2B" variants="#AD3A2B" value="#AD3A2B"/&gt;
+   &lt;/Group&gt;
+
+   &lt;Variable name="blitzview" description="Initial view type"
+       type="automatic" default="sidebar" value="magazine"/&gt;
+*/
+
+/* BEGIN CUT */
+{
+ "font:Text": "$(page.text.font)",
+ "color:Text": "$(page.text.color)",
+ "image:Background": "$(body.background)",
+ "color:Background": "$(body.background.color)",
+ "color:Header Background": "$(header.background.color)",
+ "color:Primary": "$(primary.color)",
+ "color:Menu Text": "$(menu.text.color)",
+ "font:Menu": "$(menu.font)",
+ "font:Link": "$(link.font)",
+ "color:Link": "$(link.color)",
+ "color:Link Visited": "$(link.visited.color)",
+ "color:Link Hover": "$(link.hover.color)",
+ "font:Blog Title": "$(blog.title.font)",
+ "color:Blog Title": "$(blog.title.color)",
+ "font:Blog Description": "$(blog.description.font)",
+ "color:Blog Description": "$(blog.description.color)",
+ "font:Post Title": "$(post.title.font)",
+ "color:Post Title": "$(post.title.color)",
+ "color:Ribbon": "$(ribbon.color)",
+ "color:Ribbon Hover": "$(ribbon.hover.color)",
+ "view": "$blitzview"
+}
+/* END CUT */
+]]&gt;&lt;/b:skin&gt;
+    &lt;b:template-skin&gt;
+      &lt;b:variable default='960px' name='content.width' type='length'/&gt;
+      &lt;b:variable default='0' name='main.column.left.width' type='length'/&gt;
+      &lt;b:variable default='310px' name='main.column.right.width' type='length'/&gt;
+      &lt;b:variable default='46px' name='faviconpanel.height' type='length'/&gt;
+
+      &lt;![CDATA[
+      body {
+        min-width: $(content.width);
+      }
+
+      .column-center-outer {
+        margin-top: $(faviconpanel.height);
+      }
+
+      .content-outer, .content-fauxcolumn-outer, .region-inner {
+        min-width: $(content.width);
+        max-width: $(content.width);
+        _width: $(content.width);
+      }
+
+      .main-inner .columns {
+        padding-left: $(main.column.left.width);
+        padding-right: $(main.column.right.width);
+      }
+
+      .main-inner .fauxcolumn-center-outer {
+        left: $(main.column.left.width);
+        right: $(main.column.right.width);
+        /* IE6 does not respect left and right together */
+        _width: expression(this.parentNode.offsetWidth -
+            parseInt("$(main.column.left.width)") -
+            parseInt("$(main.column.right.width)") + 'px');
+      }
+
+      .main-inner .fauxcolumn-left-outer {
+        width: $(main.column.left.width);
+      }
+
+      .main-inner .fauxcolumn-right-outer {
+        width: $(main.column.right.width);
+      }
+
+      .main-inner .column-left-outer {
+        width: $(main.column.left.width);
+        right: 100%;
+        margin-left: -$(main.column.left.width);
+      }
+
+      .main-inner .column-right-outer {
+        width: $(main.column.right.width);
+        margin-right: -$(main.column.right.width);
+      }
+
+      #layout {
+        min-width: 0;
+      }
+
+      #layout .content-outer {
+        min-width: 0;
+        width: 800px;
+      }
+
+      #layout .region-inner {
+        min-width: 0;
+        width: auto;
+      }
+      ]]&gt;
+    &lt;/b:template-skin&gt;
+
+    &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/thirdparty/jquery.js&amp;quot;' type='text/javascript'/&gt;
+    &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/thirdparty/jquery-mousewheel.js&amp;quot;' type='text/javascript'/&gt;
+    &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/common.js&amp;quot;' type='text/javascript'/&gt;
+    &lt;b:if cond='data:blog.localeUnderscoreDelimited != &amp;quot;en&amp;quot;'&gt;
+      &lt;script expr:src='data:blog.dynamicViewsScriptSrc +           &amp;quot;/js/languages/lang__&amp;quot; + data:blog.localeUnderscoreDelimited + &amp;quot;.js&amp;quot;' type='text/javascript'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:blog.view'&gt;
+      &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/&amp;quot; + data:blog.view + &amp;quot;.js&amp;quot;' type='text/javascript'/&gt;
+    &lt;b:else/&gt;
+      &lt;b:if cond='data:blog.isMobileRequest'&gt;
+        &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/classic.js&amp;quot;' type='text/javascript'/&gt;
+      &lt;b:else/&gt;
+        &lt;b:if cond='data:skin.vars.blitzview'&gt;
+          &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/&amp;quot; + data:skin.vars.blitzview + &amp;quot;.js&amp;quot;' type='text/javascript'/&gt;
+        &lt;b:else/&gt;
+          &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/sidebar.js&amp;quot;' type='text/javascript'/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:if&gt;
+    &lt;/b:if&gt;
+    &lt;script expr:src='data:blog.dynamicViewsScriptSrc + &amp;quot;/js/gadgets.js&amp;quot;' type='text/javascript'/&gt;
+    &lt;script expr:src='data:blog.dynamicViewsCommentsSrc'/&gt;
+    &lt;b:include data='blog' name='google-analytics'/&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class='content'&gt;
+      &lt;div class='content-outer'&gt;
+        &lt;div class='fauxborder-left content-fauxborder-left'&gt;
+          &lt;div class='content-inner'&gt;
+            &lt;div class='main-outer'&gt;
+              &lt;div class='fauxborder-left main-fauxborder-left'&gt;
+                &lt;div class='region-inner main-inner'&gt;
+                  &lt;div class='columns fauxcolumns'&gt;
+                    &lt;div class='column-center-outer'&gt;
+                      &lt;div class='column-center-inner'&gt;
+                        &lt;b:section class='main' id='main' showaddelement='no'&gt;
+                          &lt;b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'&gt;
+                            &lt;b:includable id='main' var='top'&gt;
+  &lt;b:if cond='data:mobile == &amp;quot;false&amp;quot;'&gt;
+
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;data:defaultAdStart/&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &lt;b:if cond='data:post.isFirstPost == &amp;quot;false&amp;quot;'&gt;
+            &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-outer&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.dateHeader'&gt;
+          &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-posts&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;div class='post-outer'&gt;
+        &lt;b:include data='post' name='post'/&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+        &lt;/div&gt;
+        &lt;b:if cond='data:post.includeAd'&gt;
+          &lt;b:if cond='data:post.isFirstPost'&gt;
+            &lt;data:defaultAdEnd/&gt;
+          &lt;b:else/&gt;
+            &lt;data:adEnd/&gt;
+          &lt;/b:if&gt;
+          &lt;div class='inline-ad'&gt;
+            &lt;data:adCode/&gt;
+          &lt;/div&gt;
+          &lt;data:adStart/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+      &lt;b:if cond='data:numPosts != 0'&gt;
+        &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+      &lt;/b:if&gt;
+      &lt;data:adEnd/&gt;
+    &lt;/div&gt;
+
+    &lt;!-- navigation --&gt;
+    &lt;b:include name='nextprev'/&gt;
+
+    &lt;!-- feed links --&gt;
+    &lt;b:include name='feedLinks'/&gt;
+
+  &lt;b:else/&gt;
+    &lt;b:include name='mobile-main'/&gt;
+  &lt;/b:if&gt;
+
+  &lt;b:if cond='data:top.showDummy'&gt;
+    &lt;data:top.dummyBootstrap/&gt;
+  &lt;/b:if&gt;
+
+&lt;/b:includable&gt;
+                            &lt;b:includable id='backlinkDeleteIcon' var='backlink'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:backlink.adminClass'&gt;
+    &lt;a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'&gt;
+      &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='backlinks' var='post'&gt;
+  &lt;a name='links'/&gt;&lt;h4&gt;&lt;data:post.backlinksLabel/&gt;&lt;/h4&gt;
+  &lt;b:if cond='data:post.numBacklinks != 0'&gt;
+    &lt;dl class='comments-block' id='comments-block'&gt;
+      &lt;b:loop values='data:post.backlinks' var='backlink'&gt;
+        &lt;div class='collapsed-backlink backlink-control'&gt;
+          &lt;dt class='comment-title'&gt;
+            &lt;span class='backlink-toggle-zippy'&gt;&amp;#160;&lt;/span&gt;
+            &lt;a expr:href='data:backlink.url' rel='nofollow'&gt;&lt;data:backlink.title/&gt;&lt;/a&gt;
+            &lt;b:include data='backlink' name='backlinkDeleteIcon'/&gt;
+          &lt;/dt&gt;
+          &lt;dd class='comment-body collapseable'&gt;
+            &lt;data:backlink.snippet/&gt;
+          &lt;/dd&gt;
+          &lt;dd class='comment-footer collapseable'&gt;
+            &lt;span class='comment-author'&gt;&lt;data:post.authorLabel/&gt; &lt;data:backlink.author/&gt;&lt;/span&gt;
+            &lt;span class='comment-timestamp'&gt;&lt;data:post.timestampLabel/&gt; &lt;data:backlink.timestamp/&gt;&lt;/span&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/b:loop&gt;
+    &lt;/dl&gt;
+  &lt;/b:if&gt;
+  &lt;p class='comment-footer'&gt;
+    &lt;a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &amp;quot;_backlinks-create-link&amp;quot;' target='_blank'&gt;&lt;data:post.createLinkLabel/&gt;&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;h4 id='comment-post-message'&gt;
+        &lt;a expr:id='data:widget.instanceId + &amp;quot;_comment-editor-toggle-link&amp;quot;' href='javascript:void(0)'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;h4 id='comment-post-message'&gt;&lt;data:postCommentMsg/&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='commentDeleteIcon' var='comment'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:comment.adminClass'&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div class='goog-toggle-button'&gt;
+        &lt;div class='goog-inline-block comment-action-icon'/&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'&gt;
+        &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+      &lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='comment_count_picker' var='post'&gt;
+  &lt;b:if cond='data:post.commentSource == 1'&gt;
+    &lt;span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.canonicalUrl'&gt;
+    &lt;/span&gt;
+  &lt;b:else/&gt;
+    &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+      &lt;data:post.commentLabelFull/&gt;:
+    &lt;/a&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='comment_picker' var='post'&gt;
+  &lt;b:if cond='data:post.commentSource == 1'&gt;
+    &lt;b:include data='post' name='iframe_comments'/&gt;
+  &lt;b:else/&gt;
+    &lt;b:if cond='data:post.showThreadedComments'&gt;
+      &lt;b:include data='post' name='threaded_comments'/&gt;
+    &lt;b:else/&gt;
+      &lt;b:include data='post' name='comments'/&gt;
+    &lt;/b:if&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;b:if cond='data:post.allowComments'&gt;
+      &lt;h4&gt;&lt;data:post.commentLabelFull/&gt;:&lt;/h4&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;b:if cond='data:post.hasOlderLinks'&gt;
+            &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;&lt;data:post.oldestLinkText/&gt;&lt;/a&gt;
+              &amp;#160;
+            &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;&lt;data:post.olderLinkText/&gt;&lt;/a&gt;
+              &amp;#160;
+          &lt;/b:if&gt;
+
+          &lt;data:post.commentRangeText/&gt;
+
+          &lt;b:if cond='data:post.hasNewerLinks'&gt;
+            &amp;#160;
+            &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;&lt;data:post.newerLinkText/&gt;&lt;/a&gt;
+            &amp;#160;
+            &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;&lt;data:post.newestLinkText/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;div expr:id='data:widget.instanceId + &amp;quot;_comments-block-wrapper&amp;quot;'&gt;
+        &lt;dl expr:class='data:post.avatarIndentClass' id='comments-block'&gt;
+          &lt;b:loop values='data:post.comments' var='comment'&gt;
+            &lt;dt expr:class='&amp;quot;comment-author &amp;quot; + data:comment.authorClass' expr:id='data:comment.anchorName'&gt;
+              &lt;b:if cond='data:comment.favicon'&gt;
+                &lt;img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/&gt;
+              &lt;/b:if&gt;
+              &lt;a expr:name='data:comment.anchorName'/&gt;
+              &lt;b:if cond='data:blog.enabledCommentProfileImages'&gt;
+                &lt;data:comment.authorAvatarImage/&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:comment.authorUrl'&gt;
+                &lt;a expr:href='data:comment.authorUrl' rel='nofollow'&gt;&lt;data:comment.author/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;data:comment.author/&gt;
+              &lt;/b:if&gt;
+              &lt;data:commentPostedByMsg/&gt;
+            &lt;/dt&gt;
+            &lt;dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'&gt;
+              &lt;b:if cond='data:comment.isDeleted'&gt;
+                &lt;span class='deleted-comment'&gt;&lt;data:comment.body/&gt;&lt;/span&gt;
+              &lt;b:else/&gt;
+                &lt;p&gt;
+                  &lt;data:comment.body/&gt;
+                &lt;/p&gt;
+              &lt;/b:if&gt;
+            &lt;/dd&gt;
+            &lt;dd class='comment-footer'&gt;
+              &lt;span class='comment-timestamp'&gt;
+                &lt;a expr:href='data:comment.url' title='comment permalink'&gt;
+                  &lt;data:comment.timestamp/&gt;
+                &lt;/a&gt;
+                &lt;b:include data='comment' name='commentDeleteIcon'/&gt;
+              &lt;/span&gt;
+            &lt;/dd&gt;
+          &lt;/b:loop&gt;
+        &lt;/dl&gt;
+      &lt;/div&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;
+            &lt;data:post.oldestLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;
+            &lt;data:post.olderLinkText/&gt;
+          &lt;/a&gt;
+          &amp;#160;
+          &lt;data:post.commentRangeText/&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;
+            &lt;data:post.newerLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;
+            &lt;data:post.newestLinkText/&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;p class='comment-footer'&gt;
+        &lt;b:if cond='data:post.embedCommentForm'&gt;
+          &lt;b:if cond='data:post.allowNewComments'&gt;
+            &lt;b:include data='post' name='comment-form'/&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.noNewCommentsText/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+
+      &lt;/p&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='feedLinks'&gt;
+  &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt; &lt;!-- Blog feed links --&gt;
+    &lt;b:if cond='data:feedLinks'&gt;
+      &lt;div class='blog-feeds'&gt;
+        &lt;b:include data='feedLinks' name='feedLinksBody'/&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:else/&gt; &lt;!--Post feed links --&gt;
+    &lt;div class='post-feeds'&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.allowComments'&gt;
+          &lt;b:if cond='data:post.feedLinks'&gt;
+            &lt;b:include data='post.feedLinks' name='feedLinksBody'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='feedLinksBody' var='links'&gt;
+  &lt;div class='feed-links'&gt;
+  &lt;data:feedLinksMsg/&gt;
+  &lt;b:loop values='data:links' var='f'&gt;
+     &lt;a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'&gt;&lt;data:f.name/&gt; (&lt;data:f.feedType/&gt;)&lt;/a&gt;
+  &lt;/b:loop&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='iframe_comments' var='post'&gt;
+
+  &lt;b:if cond='data:post.allowIframeComments'&gt;
+    &lt;script expr:src='data:post.iframeCommentSrc' type='text/javascript'/&gt;
+    &lt;div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/&gt;
+
+    &lt;b:if cond='data:post.embedCommentForm == &amp;quot;false&amp;quot;'&gt;
+      &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='mobile-index-post' var='post'&gt;
+  &lt;div class='mobile-date-outer date-outer'&gt;
+    &lt;b:if cond='data:post.dateHeader'&gt;
+      &lt;div class='date-header'&gt;
+        &lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-post-outer'&gt;
+      &lt;a expr:href='data:post.url'&gt;
+        &lt;h3 class='mobile-index-title entry-title' itemprop='name'&gt;
+          &lt;data:post.title/&gt;
+        &lt;/h3&gt;
+
+        &lt;div class='mobile-index-arrow'&gt;&amp;amp;rsaquo;&lt;/div&gt;
+
+        &lt;div class='mobile-index-contents'&gt;
+          &lt;b:if cond='data:post.thumbnailUrl'&gt;
+            &lt;div class='mobile-index-thumbnail'&gt;
+              &lt;div class='Image'&gt;
+                &lt;img expr:src='data:post.thumbnailUrl'/&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-body'&gt;
+            &lt;b:if cond='data:post.snippet'&gt;&lt;data:post.snippet/&gt;&lt;/b:if&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style='clear: both;'/&gt;
+      &lt;/a&gt;
+
+      &lt;div class='mobile-index-comment'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;b:if cond='data:post.numComments != 0'&gt;
+              &lt;b:include data='post' name='comment_count_picker'/&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='mobile-main' var='top'&gt;
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;b:if cond='data:blog.pageType == &amp;quot;index&amp;quot;'&gt;
+        &lt;b:loop values='data:posts' var='post'&gt;
+          &lt;b:include data='post' name='mobile-index-post'/&gt;
+        &lt;/b:loop&gt;
+      &lt;b:else/&gt;
+        &lt;b:loop values='data:posts' var='post'&gt;
+          &lt;b:include data='post' name='mobile-post'/&gt;
+        &lt;/b:loop&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+
+   &lt;b:include name='mobile-nextprev'/&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='mobile-nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&amp;amp;lsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&amp;amp;rsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-link-button' id='blog-pager-home-link'&gt;
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class='mobile-desktop-link'&gt;
+      &lt;a class='home-link' expr:href='data:desktopLinkUrl'&gt;&lt;data:desktopLinkMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='mobile-post' var='post'&gt;
+  &lt;div class='date-outer'&gt;
+    &lt;b:if cond='data:post.dateHeader'&gt;
+      &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+    &lt;/b:if&gt;
+    &lt;div class='date-posts'&gt;
+      &lt;div class='post-outer'&gt;
+
+        &lt;div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'&gt;
+          &lt;b:if cond='data:post.thumbnailUrl'&gt;
+            &lt;meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/&gt;
+          &lt;/b:if&gt;
+          &lt;meta expr:content='data:blog.blogId' itemprop='blogId'/&gt;
+          &lt;meta expr:content='data:post.id' itemprop='postId'/&gt;
+
+          &lt;a expr:name='data:post.id'/&gt;
+          &lt;b:if cond='data:post.title'&gt;
+            &lt;h3 class='post-title entry-title' itemprop='name'&gt;
+              &lt;b:if cond='data:post.link'&gt;
+                &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;b:if cond='data:post.url'&gt;
+                  &lt;b:if cond='data:blog.url != data:post.url'&gt;
+                    &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+                  &lt;b:else/&gt;
+                    &lt;data:post.title/&gt;
+                  &lt;/b:if&gt;
+                &lt;b:else/&gt;
+                  &lt;data:post.title/&gt;
+                &lt;/b:if&gt;
+              &lt;/b:if&gt;
+            &lt;/h3&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-header'&gt;
+            &lt;div class='post-header-line-1'/&gt;
+          &lt;/div&gt;
+
+          &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id' itemprop='articleBody'&gt;
+            &lt;data:post.body/&gt;
+            &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+          &lt;/div&gt;
+
+          &lt;div class='post-footer'&gt;
+            &lt;div class='post-footer-line post-footer-line-1'&gt;
+              &lt;span class='post-author vcard'&gt;
+                &lt;b:if cond='data:top.showAuthor'&gt;
+                  &lt;b:if cond='data:post.authorProfileUrl'&gt;
+                    &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                      &lt;meta expr:content='data:post.authorProfileUrl' itemprop='url'/&gt;
+                      &lt;a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'&gt;
+                        &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                      &lt;/a&gt;
+                    &lt;/span&gt;
+                  &lt;b:else/&gt;
+                    &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                      &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+
+              &lt;span class='post-timestamp'&gt;
+                &lt;b:if cond='data:top.showTimestamp'&gt;
+                  &lt;data:top.timestampLabel/&gt;
+                  &lt;b:if cond='data:post.url'&gt;
+                    &lt;meta expr:content='data:post.canonicalUrl' itemprop='url'/&gt;
+                    &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+
+              &lt;span class='post-comment-link'&gt;
+                &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+                  &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+                    &lt;b:if cond='data:post.allowComments'&gt;
+                      &lt;b:include data='post' name='comment_count_picker'/&gt;
+                    &lt;/b:if&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class='post-footer-line post-footer-line-2'&gt;
+              &lt;b:if cond='data:top.showMobileShare'&gt;
+                &lt;div class='mobile-link-button goog-inline-block' id='mobile-share-button'&gt;
+                  &lt;a href='javascript:void(0);'&gt;&lt;data:shareMsg/&gt;&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:top.showDummy'&gt;
+                &lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;
+              &lt;/b:if&gt;
+            &lt;/div&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;span id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&lt;data:newerPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;span id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&lt;data:olderPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+
+    &lt;b:if cond='data:mobileLinkUrl'&gt;
+      &lt;div class='blog-mobile-link'&gt;
+        &lt;a expr:href='data:mobileLinkUrl'&gt;&lt;data:mobileLinkMsg/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='post' var='post'&gt;
+  &lt;div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'&gt;
+    &lt;b:if cond='data:post.firstImageUrl'&gt;
+      &lt;meta expr:content='data:post.firstImageUrl' itemprop='image_url'/&gt;
+    &lt;/b:if&gt;
+    &lt;meta expr:content='data:blog.blogId' itemprop='blogId'/&gt;
+    &lt;meta expr:content='data:post.id' itemprop='postId'/&gt;
+
+    &lt;a expr:name='data:post.id'/&gt;
+    &lt;b:if cond='data:post.title'&gt;
+      &lt;h3 class='post-title entry-title' itemprop='name'&gt;
+      &lt;b:if cond='data:post.link'&gt;
+        &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+      &lt;b:else/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;b:if cond='data:blog.url != data:post.url'&gt;
+            &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.title/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;data:post.title/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:if&gt;
+      &lt;/h3&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='post-header'&gt;
+    &lt;div class='post-header-line-1'/&gt;
+    &lt;/div&gt;
+
+    &lt;b:if cond='data:blog.metaDescription == &amp;quot;&amp;quot;'&gt;
+      &lt;!-- Then use the post body as the schema.org description,
+          for good G+/FB snippeting. --&gt;
+      &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id' itemprop='description articleBody'&gt;
+        &lt;data:post.body/&gt;
+        &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id' itemprop='articleBody'&gt;
+        &lt;data:post.body/&gt;
+        &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:post.hasJumpLink'&gt;
+      &lt;div class='jump-link'&gt;
+        &lt;a expr:href='data:post.url + &amp;quot;#more&amp;quot;' expr:title='data:post.title'&gt;&lt;data:post.jumpText/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='post-footer'&gt;
+    &lt;div class='post-footer-line post-footer-line-1'&gt;&lt;span class='post-author vcard'&gt;
+        &lt;b:if cond='data:top.showAuthor'&gt;
+          &lt;data:top.authorLabel/&gt;
+            &lt;b:if cond='data:post.authorProfileUrl'&gt;
+              &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                &lt;meta expr:content='data:post.authorProfileUrl' itemprop='url'/&gt;
+                &lt;a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='author profile'&gt;
+                  &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                &lt;/a&gt;
+              &lt;/span&gt;
+            &lt;b:else/&gt;
+              &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;span class='post-timestamp'&gt;
+        &lt;b:if cond='data:top.showTimestamp'&gt;
+          &lt;data:top.timestampLabel/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;meta expr:content='data:post.canonicalUrl' itemprop='url'/&gt;
+          &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
+        &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;span class='post-comment-link'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+          &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+            &lt;b:if cond='data:post.allowComments'&gt;
+              &lt;b:include data='post' name='comment_count_picker'/&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;span class='post-icons'&gt;
+        &lt;!-- email post links --&gt;
+        &lt;b:if cond='data:post.emailPostUrl'&gt;
+          &lt;span class='item-action'&gt;
+          &lt;a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'&gt;
+              &lt;img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/&gt;
+          &lt;/a&gt;
+          &lt;/span&gt;
+        &lt;/b:if&gt;
+
+        &lt;!-- quickedit pencil --&gt;
+        &lt;b:include data='post' name='postQuickEdit'/&gt;
+      &lt;/span&gt; &lt;div class='post-share-buttons goog-inline-block'&gt;
+        &lt;b:if cond='data:post.sharePostUrl'&gt;
+          &lt;b:include data='post' name='shareButtons'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt; &lt;/div&gt;
+
+      &lt;div class='post-footer-line post-footer-line-2'&gt;&lt;span class='post-labels'&gt;
+        &lt;b:if cond='data:post.labels'&gt;
+          &lt;data:postLabelsLabel/&gt;
+          &lt;b:loop values='data:post.labels' var='label'&gt;
+            &lt;a expr:href='data:label.url' rel='tag'&gt;&lt;data:label.name/&gt;&lt;/a&gt;&lt;b:if cond='data:label.isLast != &amp;quot;true&amp;quot;'&gt;,&lt;/b:if&gt;
+          &lt;/b:loop&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;/div&gt;
+
+      &lt;div class='post-footer-line post-footer-line-3'&gt;&lt;span class='post-location'&gt;
+        &lt;b:if cond='data:top.showLocation'&gt;
+          &lt;b:if cond='data:post.location'&gt;
+            &lt;data:postLocationLabel/&gt;
+            &lt;a expr:href='data:post.location.mapsUrl' target='_blank'&gt;&lt;data:post.location.name/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;/div&gt;
+      &lt;b:if cond='data:post.authorAboutMe'&gt;
+        &lt;div class='author-profile' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+          &lt;b:if cond='data:post.authorPhoto.url'&gt;
+            &lt;img expr:src='data:post.authorPhoto.url' itemprop='image' width='50px'/&gt;
+          &lt;/b:if&gt;
+          &lt;div&gt;
+            &lt;a class='g-profile' expr:href='data:post.authorProfileUrl' itemprop='url' rel='author' title='author profile'&gt;
+              &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;span itemprop='description'&gt;&lt;data:post.authorAboutMe/&gt;&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='postQuickEdit' var='post'&gt;
+  &lt;b:if cond='data:post.editUrl'&gt;
+    &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:post.adminClass'&gt;
+      &lt;a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'&gt;
+        &lt;img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/&gt;
+      &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='shareButtons' var='post'&gt;
+  &lt;b:if cond='data:top.showEmailButton'&gt;&lt;a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=email&amp;quot;' expr:title='data:top.emailThisMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.emailThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showBlogThisButton'&gt;&lt;a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=blog&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=270,width=475\&amp;quot;); return false;&amp;quot;' expr:title='data:top.blogThisMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.blogThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showTwitterButton'&gt;&lt;a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=twitter&amp;quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToTwitterMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showFacebookButton'&gt;&lt;a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=facebook&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=430,width=640\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToFacebookMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showOrkutButton'&gt;&lt;a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=orkut&amp;quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToOrkutMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showPinterestButton'&gt;&lt;a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=pinterest&amp;quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToPinterestMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showDummy'&gt;&lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;&lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='status-message'&gt;
+  &lt;b:if cond='data:navMessage'&gt;
+  &lt;div class='status-msg-wrap'&gt;
+    &lt;div class='status-msg-body'&gt;
+      &lt;data:navMessage/&gt;
+    &lt;/div&gt;
+    &lt;div class='status-msg-border'&gt;
+      &lt;div class='status-msg-bg'&gt;
+        &lt;div class='status-msg-hidden'&gt;&lt;data:navMessage/&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style='clear: both;'/&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='threaded-comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='threaded_comment_js' var='post'&gt;
+  &lt;script async='async' expr:src='data:post.commentSrc' type='text/javascript'/&gt;
+
+  &lt;script type='text/javascript'&gt;
+    (function() {
+      var items = &lt;data:post.commentJso/&gt;;
+      var msgs = &lt;data:post.commentMsgs/&gt;;
+      var config = &lt;data:post.commentConfig/&gt;;
+
+// &lt;![CDATA[
+      var cursor = null;
+      if (items &amp;&amp; items.length &gt; 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '&lt;span class="deleted-comment"&gt;' + entry.content.$t + '&lt;/span&gt;';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data &amp;&amp; data.feed &amp;&amp; data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author &amp;&amp; entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid &amp;&amp; pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&amp;v=2&amp;orderby=published&amp;reverse=false&amp;max-results=50';
+          if (cursor) {
+            url += '&amp;published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length &lt; 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&amp;callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              &amp;&amp; comment.author.name == config.authorName
+              &amp;&amp; comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&amp;postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox &amp;&amp; (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&amp;parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog &amp;&amp; window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog &amp;&amp; window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]&gt;
+  &lt;/script&gt;
+&lt;/b:includable&gt;
+                            &lt;b:includable id='threaded_comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;h4&gt;&lt;data:post.commentLabelFull/&gt;:&lt;/h4&gt;
+
+    &lt;div class='comments-content'&gt;
+      &lt;b:if cond='data:post.embedCommentForm'&gt;
+        &lt;b:include data='post' name='threaded_comment_js'/&gt;
+      &lt;/b:if&gt;
+      &lt;div id='comment-holder'&gt;
+         &lt;data:post.commentHtml/&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;p class='comment-footer'&gt;
+      &lt;b:if cond='data:post.allowNewComments'&gt;
+        &lt;b:include data='post' name='threaded-comment-form'/&gt;
+      &lt;b:else/&gt;
+        &lt;data:post.noNewCommentsText/&gt;
+      &lt;/b:if&gt;
+    &lt;/p&gt;
+
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                          &lt;/b:widget&gt;
+                        &lt;/b:section&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class='column-right-outer'&gt;
+                      &lt;div class='column-right-inner'&gt;
+                        &lt;aside&gt;
+                          &lt;b:section class='sidebar' id='sidebar-right-1' preferred='yes' showaddelement='yes'&gt;
+                            &lt;b:widget id='Header1' locked='false' title='An Iteration (Header)' type='Header'&gt;
+                              &lt;b:includable id='main'&gt;
+
+  &lt;b:if cond='data:useImage'&gt;
+    &lt;b:if cond='data:imagePlacement == &amp;quot;BEHIND&amp;quot;'&gt;
+      &lt;!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      --&gt;
+      &lt;b:if cond='data:mobile'&gt;
+          &lt;div id='header-inner'&gt;
+            &lt;div class='titlewrapper' style='background: transparent'&gt;
+              &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+                &lt;b:include name='title'/&gt;
+              &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;b:include name='description'/&gt;
+          &lt;/div&gt;
+        &lt;b:else/&gt;
+          &lt;div expr:style='&amp;quot;background-image: url(\&amp;quot;&amp;quot; + data:sourceUrl + &amp;quot;\&amp;quot;); &amp;quot;                        + &amp;quot;background-position: &amp;quot;                        + data:backgroundPositionStyleStr + &amp;quot;; &amp;quot;                        + data:widthStyleStr                        + &amp;quot;min-height: &amp;quot; + data:height                        + &amp;quot;_height: &amp;quot; + data:height                        + &amp;quot;background-repeat: no-repeat; &amp;quot;' id='header-inner'&gt;
+            &lt;div class='titlewrapper' style='background: transparent'&gt;
+              &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+                &lt;b:include name='title'/&gt;
+              &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;b:include name='description'/&gt;
+          &lt;/div&gt;
+        &lt;/b:if&gt;
+    &lt;b:else/&gt;
+      &lt;!--Show the image only--&gt;
+      &lt;div id='header-inner'&gt;
+        &lt;a expr:href='data:blog.homepageUrl' style='display: block'&gt;
+          &lt;img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &amp;quot;_headerimg&amp;quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/&gt;
+        &lt;/a&gt;
+        &lt;!--Show the description--&gt;
+        &lt;b:if cond='data:imagePlacement == &amp;quot;BEFORE_DESCRIPTION&amp;quot;'&gt;
+          &lt;b:include name='description'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+  &lt;b:else/&gt;
+    &lt;!--No header image --&gt;
+    &lt;div id='header-inner'&gt;
+      &lt;div class='titlewrapper'&gt;
+        &lt;h1 class='title'&gt;
+          &lt;b:include name='title'/&gt;
+        &lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;b:include name='description'/&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='description'&gt;
+  &lt;div class='descriptionwrapper'&gt;
+    &lt;p class='description'&gt;&lt;span&gt;&lt;data:description/&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='title'&gt;
+  &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
+    &lt;data:title/&gt;
+  &lt;b:else/&gt;
+    &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;/b:widget&gt;
+                            &lt;b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'&gt;
+                              &lt;b:includable id='main'&gt;
+  &lt;b:if cond='data:title'&gt;
+    &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
+  &lt;/b:if&gt;
+  &lt;div class='widget-content'&gt;
+  &lt;div id='ArchiveList'&gt;
+  &lt;div expr:id='data:widget.instanceId + &amp;quot;_ArchiveList&amp;quot;'&gt;
+    &lt;b:if cond='data:style == &amp;quot;HIERARCHY&amp;quot;'&gt;
+     &lt;b:include data='data' name='interval'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:style == &amp;quot;FLAT&amp;quot;'&gt;
+      &lt;b:include data='data' name='flat'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:style == &amp;quot;MENU&amp;quot;'&gt;
+      &lt;b:include data='data' name='menu'/&gt;
+    &lt;/b:if&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;b:include name='quickedit'/&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='flat' var='data'&gt;
+  &lt;ul class='flat'&gt;
+    &lt;b:loop values='data:data' var='i'&gt;
+      &lt;li class='archivedate'&gt;
+        &lt;a expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt; (&lt;data:i.post-count/&gt;)
+      &lt;/li&gt;
+    &lt;/b:loop&gt;
+  &lt;/ul&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='interval' var='intervalData'&gt;
+  &lt;b:loop values='data:intervalData' var='i'&gt;
+      &lt;ul class='hierarchy'&gt;
+        &lt;li expr:class='&amp;quot;archivedate &amp;quot; + data:i.expclass'&gt;
+          &lt;b:include data='i' name='toggle'/&gt;
+          &lt;a class='post-count-link' expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt;
+            &lt;span class='post-count' dir='ltr'&gt;(&lt;data:i.post-count/&gt;)&lt;/span&gt;
+          &lt;b:if cond='data:i.data'&gt;
+            &lt;b:include data='i.data' name='interval'/&gt;
+          &lt;/b:if&gt;
+          &lt;b:if cond='data:i.posts'&gt;
+            &lt;b:include data='i.posts' name='posts'/&gt;
+          &lt;/b:if&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/b:loop&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='menu' var='data'&gt;
+  &lt;select expr:id='data:widget.instanceId + &amp;quot;_ArchiveMenu&amp;quot;'&gt;
+    &lt;option value=''&gt;&lt;data:title/&gt;&lt;/option&gt;
+    &lt;b:loop values='data:data' var='i'&gt;
+      &lt;option expr:value='data:i.url'&gt;&lt;data:i.name/&gt; (&lt;data:i.post-count/&gt;)&lt;/option&gt;
+    &lt;/b:loop&gt;
+  &lt;/select&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='posts' var='posts'&gt;
+  &lt;ul class='posts'&gt;
+    &lt;b:loop values='data:posts' var='i'&gt;
+      &lt;li&gt;&lt;a expr:href='data:i.url'&gt;&lt;data:i.title/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/b:loop&gt;
+  &lt;/ul&gt;
+&lt;/b:includable&gt;
+                              &lt;b:includable id='toggle' var='interval'&gt;
+  &lt;b:if cond='data:interval.toggleId'&gt;
+  &lt;b:if cond='data:interval.expclass == &amp;quot;expanded&amp;quot;'&gt;
+    &lt;a class='toggle' href='javascript:void(0)'&gt;
+      &lt;span class='zippy toggle-open'&gt;&amp;#9660;&amp;#160;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;b:else/&gt;
+    &lt;a class='toggle' href='javascript:void(0)'&gt;
+      &lt;span class='zippy'&gt;
+        &lt;b:if cond='data:blog.languageDirection == &amp;quot;rtl&amp;quot;'&gt;
+          &amp;#9668;&amp;#160;
+        &lt;b:else/&gt;
+          &amp;#9658;&amp;#160;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/b:if&gt;
+ &lt;/b:if&gt;
+&lt;/b:includable&gt;
+                            &lt;/b:widget&gt;
+                            &lt;b:widget id='Profile1' locked='false' title='About Me' type='Profile'&gt;
+                              &lt;b:includable id='main'&gt;
+    &lt;b:if cond='data:title != &amp;quot;&amp;quot;'&gt;
+      &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
+    &lt;/b:if&gt;
+    &lt;div class='widget-content'&gt;
+    &lt;b:if cond='data:team == &amp;quot;true&amp;quot;'&gt; &lt;!-- team blog profile --&gt;
+      &lt;ul&gt;
+        &lt;b:loop values='data:authors' var='i'&gt;
+          &lt;li&gt;&lt;a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&amp;quot;background-image: url(&amp;quot; + data:i.profileLogo + &amp;quot;);&amp;quot;'&gt;&lt;data:i.display-name/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/b:loop&gt;
+      &lt;/ul&gt;
+
+    &lt;b:else/&gt; &lt;!-- normal blog profile --&gt;
+
+      &lt;b:if cond='data:photo.url != &amp;quot;&amp;quot;'&gt;
+        &lt;a expr:href='data:userUrl'&gt;&lt;img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/&gt;&lt;/a&gt;
+      &lt;/b:if&gt;
+
+      &lt;dl class='profile-datablock'&gt;
+        &lt;dt class='profile-data'&gt;
+          &lt;a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&amp;quot;background-image: url(&amp;quot; + data:profileLogo + &amp;quot;);&amp;quot;' rel='author'&gt;
+            &lt;data:displayname/&gt;
+          &lt;/a&gt;
+          &lt;b:if cond='data:hasgoogleprofile'&gt;
+            &lt;br/&gt;
+            &lt;div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/&gt;
+          &lt;/b:if&gt;
+        &lt;/dt&gt;
+
+        &lt;b:if cond='data:showlocation == &amp;quot;true&amp;quot;'&gt;
+          &lt;dd class='profile-data'&gt;&lt;data:location/&gt;&lt;/dd&gt;
+        &lt;/b:if&gt;
+
+        &lt;b:if cond='data:aboutme != &amp;quot;&amp;quot;'&gt;&lt;dd class='profile-textblock'&gt;&lt;data:aboutme/&gt;&lt;/dd&gt;&lt;/b:if&gt;
+      &lt;/dl&gt;
+      &lt;a class='profile-link' expr:href='data:userUrl' rel='author'&gt;&lt;data:viewProfileMsg/&gt;&lt;/a&gt;
+    &lt;/b:if&gt;
+
+     &lt;b:include name='quickedit'/&gt;
+    &lt;/div&gt;
+  &lt;/b:includable&gt;
+                            &lt;/b:widget&gt;
+                            &lt;b:widget id='AdSense1' locked='false' title='' type='AdSense'&gt;
+                              &lt;b:includable id='main'&gt;
+  &lt;div class='widget-content'&gt;
+    &lt;b:if cond='data:blog.disableAdSenseWidget != &amp;quot;true&amp;quot;'&gt;
+      &lt;data:adCode/&gt;
+    &lt;/b:if&gt;
+    &lt;b:include name='quickedit'/&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+                            &lt;/b:widget&gt;
+                            &lt;b:widget id='Attribution1' locked='false' title='' type='Attribution'&gt;
+                              &lt;b:includable id='main'&gt;
+    &lt;b:if cond='data:feedbackSurveyLink'&gt;
+      &lt;div class='mobile-survey-link' style='text-align: center;'&gt;
+        &lt;data:feedbackSurveyLink/&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='widget-content' style='text-align: center;'&gt;
+      &lt;b:if cond='data:attribution != &amp;quot;&amp;quot;'&gt;
+       &lt;data:attribution/&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+
+    &lt;b:include name='quickedit'/&gt;
+  &lt;/b:includable&gt;
+                            &lt;/b:widget&gt;
+                            &lt;b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'&gt;
+                              &lt;b:includable id='main'&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&amp;#39;load&amp;#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&amp;#39;onload&amp;#39;, function(){ object[attribute] = val; });
+      }
+    }
+  &amp;lt;/script&amp;gt;
+&amp;lt;div id=&amp;quot;navbar-iframe-container&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://apis.google.com/js/plusone.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+        gapi.load(&amp;quot;gapi.iframes:gapi.iframes.style.bubble&amp;quot;, function() {
+          if (gapi.iframes &amp;amp;&amp;amp; gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: &amp;#39;https://www.blogger.com/navbar.g?targetBlogID\0754694351430951466803\46blogName\75An+Iteration\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://aniteration.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://aniteration.blogspot.com/\46blogFollowUrl\75https://plus.google.com/100026927809649545028\46vt\0754132961736661948691&amp;#39;,
+                where: document.getElementById(&amp;quot;navbar-iframe-container&amp;quot;),
+                id: &amp;quot;navbar-iframe&amp;quot;
+            });
+          }
+        });
+      &amp;lt;/script&amp;gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+(function() {
+var script = document.createElement(&amp;#39;script&amp;#39;);
+script.type = &amp;#39;text/javascript&amp;#39;;
+script.src = &amp;#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&amp;#39;;
+var head = document.getElementsByTagName(&amp;#39;head&amp;#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&amp;lt;/script&amp;gt;
+&lt;/b:includable&gt;
+                            &lt;/b:widget&gt;
+                          &lt;/b:section&gt;
+                        &lt;/aside&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div style='clear: both'/&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script language='javascript' type='text/javascript'&gt;
+      setTimeout(function() {
+        blogger.ui().configure().view();
+      }, 0);
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4694351430951466803/template/default'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4694351430951466803/template/default'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_PUBLISHING_MODE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of publishing done for this blog.</title><content type='text'>PUBLISH_MODE_BLOGSPOT</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_PUBLISHING_MODE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_PUBLISHING_MODE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_ADMIN_PERMISSION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of administrators' emails for the blog.</title><content type='text'>terrencebenade@gmail.com</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ADMIN_PERMISSION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ADMIN_PERMISSION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_ADULT_CONTENT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog contains adult content</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ADULT_CONTENT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ADULT_CONTENT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_ALTERNATE_JSRENDER_ALLOWED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether alternative JS renderings are allowed</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_ANALYTICS_ACCOUNT_NUMBER</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog's Google Analytics account number</title><content type='text'>UA-467654-10</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_ARCHIVE_DATE_FORMAT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the archive index date format</title><content type='text'>9</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ARCHIVE_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ARCHIVE_DATE_FORMAT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_ARCHIVE_FREQUENCY</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>How frequently this blog should be archived</title><content type='text'>MONTHLY</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ARCHIVE_FREQUENCY'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_ARCHIVE_FREQUENCY'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_AUTHOR_PERMISSION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of authors' emails who have permission to publish.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_AUTHOR_PERMISSION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_AUTHOR_PERMISSION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_BACKLINKS_ALLOWED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comment backlinks on the blog</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_BACKLINKS_ALLOWED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_BACKLINKS_ALLOWED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_BY_POST_ARCHIVING</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to provide an archive page for each post</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_BY_POST_ARCHIVING'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_BY_POST_ARCHIVING'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_ACCESS</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Who can comment</title><content type='text'>REGISTERED</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_ACCESS'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_ACCESS'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_CAPTCHA</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to require commenters to complete a Captcha</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_CAPTCHA'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_CAPTCHA'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_EMAIL</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>List of email addresses to which notifications of new comments are sent</title><content type='text'>terrencebenade@gmail.com</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_EMAIL'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_EMAIL'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_FEED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_FEED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_FEED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_FORM_LOCATION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment form location</title><content type='text'>EMBEDDED_IFRAME</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_FORM_LOCATION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_FORM_LOCATION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_MESSAGE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment message</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MESSAGE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MESSAGE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_MODERATION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to enable comment moderation</title><content type='text'>DISABLED</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MODERATION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MODERATION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_MODERATION_DELAY</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Number of days after which new comments are subject to moderation</title><content type='text'>14</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MODERATION_DELAY'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MODERATION_DELAY'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_MODERATION_EMAIL</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Email address for receiving notifications of new comments that require moderation</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MODERATION_EMAIL'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_MODERATION_EMAIL'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENT_PROFILE_IMAGES</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show profile images in comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_PROFILE_IMAGES'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENT_PROFILE_IMAGES'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENTS_ALLOWED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENTS_ALLOWED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENTS_ALLOWED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_COMMENTS_TIME_STAMP_FORMAT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comment time stamp format number</title><content type='text'>29</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_CONVERT_LINE_BREAKS</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to convert line breaks into &lt;br /&gt; tags in post editor</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CONVERT_LINE_BREAKS'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CONVERT_LINE_BREAKS'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_CUSTOM_PAGE_NOT_FOUND</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The content served when the requested post or page is not found.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CUSTOM_PAGE_NOT_FOUND'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CUSTOM_PAGE_NOT_FOUND'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_CUSTOM_ROBOTS_TXT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The custom robots.txt content of the blog served to search engines.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CUSTOM_ROBOTS_TXT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CUSTOM_ROBOTS_TXT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_CUSTOM_ROBOTS_TXT_ENABLED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog serves custom robots.txt content to search engines.</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_DATE_FORMAT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the date header format</title><content type='text'>26</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DATE_FORMAT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_DEFAULT_BACKLINKS_MODE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default backlinks mode for posts</title><content type='text'>DEFAULT_HAVE_BACKLINKS</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_DEFAULT_COMMENTS_MODE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default comment mode for posts</title><content type='text'>DEFAULT_HAVE_COMMENTS</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DEFAULT_COMMENTS_MODE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DEFAULT_COMMENTS_MODE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_DESCRIPTION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>A description of the blog</title><content type='text'>Simple fellow taking a real simple approach to a sometimes challenging problem. </content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_DESCRIPTION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_EMAIL_POST_LINKS</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a link for users to email posts</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_EMAIL_POST_LINKS'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_EMAIL_POST_LINKS'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_FEED_REDIRECT_URL</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>URL to redirect post feed requests to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_FEED_REDIRECT_URL'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_FEED_REDIRECT_URL'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_FLOAT_ALIGNMENT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether float alignment is enabled for the blog</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_FLOAT_ALIGNMENT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_FLOAT_ALIGNMENT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_LOCALE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Language for this blog</title><content type='text'>en_GB</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_LOCALE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_LOCALE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_M2B_WHITELIST_EMAIL</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>List of email addresses that can post to the blog via email.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_M2B_WHITELIST_EMAIL'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_M2B_WHITELIST_EMAIL'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_MAX_NUM</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Maximum number of things to show on the main page"</title><content type='text'>7</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_MAX_NUM'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_MAX_NUM'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_MAX_UNIT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Unit of things to show on the main page</title><content type='text'>POSTS</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_MAX_UNIT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_MAX_UNIT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_META_DESCRIPTION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The meta description of the blog served to search engines.</title><content type='text'>Blog about the art of agile software craftsmanship and delivery</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_META_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_META_DESCRIPTION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_META_DESCRIPTION_ENABLED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog is served with meta descriptions.</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_META_DESCRIPTION_ENABLED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_META_DESCRIPTION_ENABLED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_NAME</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The name of the blog</title><content type='text'>An Iteration</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_NAME'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_NAME'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_PER_POST_FEED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for per-post comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_PER_POST_FEED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_PER_POST_FEED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_POST_FEED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog posts</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_POST_FEED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_POST_FEED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_POST_FEED_FOOTER</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Footer to append to the end of each entry in the post feed</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_POST_FEED_FOOTER'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_POST_FEED_FOOTER'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_POST_TEMPLATE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The template for blog posts</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_POST_TEMPLATE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_POST_TEMPLATE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_PROMOTED</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog can be promoted on Blogger</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_PROMOTED'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_PROMOTED'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_QUICK_EDITING</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether Quick Editing is enabled</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_QUICK_EDITING'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_QUICK_EDITING'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_READ_ACCESS_MODE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The access type for the readers of the blog.</title><content type='text'>PUBLIC</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_READ_ACCESS_MODE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_READ_ACCESS_MODE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_READER_PERMISSION</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of emails for users who have permission to read the blog.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_READER_PERMISSION'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_READER_PERMISSION'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_SEARCHABLE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog should be indexed by search engines</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SEARCHABLE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SEARCHABLE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_SEND_EMAIL</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comma-separated list of emails to send new blog posts to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SEND_EMAIL'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SEND_EMAIL'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_SHOW_TITLE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show the title field</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SHOW_TITLE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SHOW_TITLE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_SHOW_URL</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a related link box in the post composer</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SHOW_URL'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SHOW_URL'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_SUBDOMAIN</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The BlogSpot subdomain under which to publish your blog</title><content type='text'>aniteration</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SUBDOMAIN'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_SUBDOMAIN'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_TIME_STAMP_FORMAT</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the time stamp format</title><content type='text'>1</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_TIME_STAMP_FORMAT'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_TIME_ZONE</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The time zone for this blog</title><content type='text'>Australia/Sydney</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_TIME_ZONE'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_TIME_ZONE'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.settings.BLOG_USE_LIGHTBOX</id><published>2013-05-19T19:47:08.358+10:00</published><updated>2014-11-13T21:23:26.844+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show images in the Lightbox when clicked</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_USE_LIGHTBOX'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/settings/BLOG_USE_LIGHTBOX'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-7394524526247186894</id><published>2014-11-03T20:49:00.001+11:00</published><updated>2014-11-03T20:49:20.104+11:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'></title><content type='html'></content><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/7394524526247186894'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/7394524526247186894'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-2264452148272677787</id><published>2014-08-01T14:14:00.001+10:00</published><updated>2014-08-01T14:21:42.824+10:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='agile'/><category scheme='http://www.blogger.com/atom/ns#' term='SOA'/><category scheme='http://www.blogger.com/atom/ns#' term='software development'/><category scheme='http://www.blogger.com/atom/ns#' term='microservices'/><category scheme='http://www.blogger.com/atom/ns#' term='leadership'/><category scheme='http://www.blogger.com/atom/ns#' term='agile engineering'/><title type='text'>Break it up to foster innovation</title><content type='html'>&lt;a href="http://2.bp.blogspot.com/-5IgYPxf8F14/U9sRLGBYYRI/AAAAAAAAu40/Q5Pb46xmYvo/s1600/small__2914549247.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="http://2.bp.blogspot.com/-5IgYPxf8F14/U9sRLGBYYRI/AAAAAAAAu40/Q5Pb46xmYvo/s1600/small__2914549247.jpg" height="200" width="133" /&gt;&lt;/a&gt;As a development manager I often get asked how do you foster innovation. How do you get the crazy smart people who work for you to innovate. Wow! Tough question.&lt;br /&gt;&lt;br /&gt;Here is a quick tip from the trenches on creating innovative opportunities &lt;i&gt;&lt;b&gt;in production&lt;/b&gt;&lt;/i&gt;. I say in production because that is where I like things to get done. Giving something to the customer is the most engaging part of building software. Ideas that sit on the bench and go nowhere are fun but have little value if done too often.&lt;br /&gt;&lt;br /&gt;If you have a big behemoth web application consider breaking it up into services. &lt;br /&gt;I am deliberately ignoring the buzzwords of SOA or microservices. For now the idea is to identify something you can slice off your application and rapidly make it a candidate for a stand alone service.&lt;br /&gt;&lt;br /&gt;Lets take user authentication to the web application as an example.&lt;br /&gt;&lt;br /&gt;If you were to rip your user database out of your system and move into its own service how would that foster innovation, or at a minimum provide opportunity to innovate?&lt;br /&gt;&lt;ul&gt;&lt;a href="http://1.bp.blogspot.com/-93l-uNP3XcU/U9sRZq4ogjI/AAAAAAAAu48/4pTL_1Cvwog/s1600/small_4363231101.jpg" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"&gt;&lt;img border="0" src="http://1.bp.blogspot.com/-93l-uNP3XcU/U9sRZq4ogjI/AAAAAAAAu48/4pTL_1Cvwog/s1600/small_4363231101.jpg" /&gt;&lt;/a&gt;&lt;li&gt;Immediately you have something smaller that you can deploy independently of the bigger solution.&lt;/li&gt;&lt;li&gt;You could adopt and entirely different technology stack as long as you provide a consumable interface.&lt;/li&gt;&lt;li&gt;You could start your cloud journey if you are not there already by deploying this service to the cloud.&lt;/li&gt;&lt;li&gt;Not Agile yet...you could use this project to employ Agile engineering practices like continuos integration or even better continuous delivery.&lt;/li&gt;&lt;li&gt;Now that authentication is sitting outside your solution you can use it to empower a mobile application &lt;a href="http://en.wikipedia.org/wiki/Skunkworks_project" target="_blank"&gt;skunk works&lt;/a&gt; if you are not in that space already.&lt;/li&gt;&lt;/ul&gt;If you succeed with slicing something off, you can take the lessons learned, identify the next slice and do it all over again. Having these small self-sufficient slices will soon enough give you ample opportunity to learn, innovate and experiment without having to rebuild your entire solution.&lt;br /&gt;&lt;br /&gt;Go far enough on your slicing and service journey you will soon be able to deploy the UI entirely independently of the backend/services...imagine all the kinds of crazy your designers and UX ninjas could come up with, with that sort of freedom?!&lt;br /&gt;&lt;br /&gt;The last thing you want is your superstar developers who are playing with the cool new toys at home never getting the chance to put them to work in production, because eventually they will leave to go work with these new stacks.&lt;br /&gt;&lt;br /&gt;Services/APIs call them what you want they are a great catalyst for creativity so give it a go. If you are new to serviced based system don't get to hung up on being RESTfully compliant or too sophisticated just get moving, get it working and learn. Soon enough you will be crushing each other in code reviews debating arbitrary naming conventions for collections on the wire ;).&lt;br /&gt;&lt;br /&gt;I don't think you can&amp;nbsp;&lt;i style="font-weight: bold;"&gt;make&amp;nbsp;&lt;/i&gt;people do anything they don't want to do. If the environment you are providing is leading to no innovation one should consider not looking out into the room and rather look at ones own leadership. Be courageous and have a go!&lt;br /&gt;&lt;br /&gt;Some more reading.&lt;br /&gt;&lt;a href="http://kinlane.com/" target="_blank"&gt;The daddy of the current API movement.&lt;/a&gt;&lt;br /&gt;&lt;a href="http://martinfowler.com/articles/microservices.html" target="_blank"&gt;Fowler on microservices&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;photo credit: &lt;a href="https://www.flickr.com/photos/islandvittles/4363231101/"&gt;Theresa Carle-Sanders&lt;/a&gt; via &lt;a href="http://photopin.com/"&gt;photopin&lt;/a&gt; &lt;a href="http://creativecommons.org/licenses/by-nc-nd/2.0/"&gt;cc&lt;/a&gt;&lt;br /&gt;photo credit: &lt;a href="https://www.flickr.com/photos/banger1977/2914549247/"&gt;banger1977&lt;/a&gt; via &lt;a href="http://photopin.com/"&gt;photopin&lt;/a&gt; &lt;a href="http://creativecommons.org/licenses/by-sa/2.0/"&gt;cc&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content><link rel='replies' type='application/atom+xml' href='http://aniteration.blogspot.com/feeds/2264452148272677787/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2014/07/break-it-up-to-foster-innovation.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/2264452148272677787'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/2264452148272677787'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/2014/07/break-it-up-to-foster-innovation.html' title='Break it up to foster innovation'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://2.bp.blogspot.com/-5IgYPxf8F14/U9sRLGBYYRI/AAAAAAAAu40/Q5Pb46xmYvo/s72-c/small__2914549247.jpg' height='72' width='72'/><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-1695029951692869403</id><published>2014-07-30T21:55:00.000+10:00</published><updated>2014-07-30T21:55:07.674+10:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>I like my job to hurt a little bit every day</title><content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;a href="http://2.bp.blogspot.com/-nCi-8YYbMLA/U9jQZtJ6XBI/AAAAAAAAu3s/OYH2EXxXhRQ/s1600/medium_11827701613.jpg" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"&gt;&lt;img border="0" src="http://2.bp.blogspot.com/-nCi-8YYbMLA/U9jQZtJ6XBI/AAAAAAAAu3s/OYH2EXxXhRQ/s1600/medium_11827701613.jpg" /&gt;&lt;/a&gt;I recently left my role as software development manager at MYOB I chose to take some time off to reset. I have not had a break from work for more than 2 weeks since I was a teenager so why not now. In trying to find out what I wanted to do next I met up with a colleague and friend&amp;nbsp;&lt;a href="https://twitter.com/nishmahanty" target="_blank"&gt;Nish Mahanty&lt;/a&gt;&amp;nbsp;for some council on how to go about the process of finding the ideal role.&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;We talked a lot about passions, interests, appreciation, recognition and all the other usual candidates.&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;The one great outcome for me was I realised I like a bit of pain in my day. Nope don't enjoy tattoos or random body piercings I am leaning more towards internal tension mixed with a bit of creative anxiety.&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;So here is the definition of pain that can make a role challenging and engaging.&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;b&gt;Being on the critical path.&lt;/b&gt; &lt;i&gt;Means if I don't get this right in the committed time frames stakeholders grand plans fail no matter what.&lt;/i&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;b&gt;Daily technical challenges or unknowns.&lt;/b&gt; &lt;i&gt;I think this solution can deliver the outcome, but to be honest I have no guarantees.&lt;/i&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;b&gt;Tough customers.&lt;/b&gt; &lt;i&gt;The ones who appreciate what you do but always want more.&lt;/i&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;b&gt;Working within broken processes.&lt;/b&gt;&lt;i&gt;&amp;nbsp;Sometimes we have to fix so much more than the problem at hand to be successful.&lt;/i&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;&lt;div class="" style="clear: both; text-align: left;"&gt;The conclusion being its ok to suffer a little. Some anxiety and a little suffering can serve you well. It will naturally stimulate your mind to protect and resolve. Don't let it get out of control but try embrace the fact you choose to put your mind into this busy state. Many great leaders are happy to be in this&lt;/div&gt;&lt;br /&gt;photo credit: &lt;a href="https://www.flickr.com/photos/68397968@N07/11827701613/"&gt;MattysFlicks&lt;/a&gt; via &lt;a href="http://photopin.com/"&gt;photopin&lt;/a&gt; &lt;a href="http://creativecommons.org/licenses/by/2.0/"&gt;cc&lt;/a&gt;</content><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2014/07/i-like-my-job-to-hurt-little-bit-every.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/1695029951692869403'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/1695029951692869403'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://2.bp.blogspot.com/-nCi-8YYbMLA/U9jQZtJ6XBI/AAAAAAAAu3s/OYH2EXxXhRQ/s72-c/medium_11827701613.jpg' height='72' width='72'/><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-6121431048263498150</id><published>2014-07-18T12:47:00.000+10:00</published><updated>2014-07-18T12:47:48.518+10:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='Hybrid'/><category scheme='http://www.blogger.com/atom/ns#' term='AngularJS'/><category scheme='http://www.blogger.com/atom/ns#' term='OSX'/><category scheme='http://www.blogger.com/atom/ns#' term='Ionic Framework'/><category scheme='http://www.blogger.com/atom/ns#' term='Mavericks'/><category scheme='http://www.blogger.com/atom/ns#' term='Ionic'/><category scheme='http://www.blogger.com/atom/ns#' term='Android Studio'/><title type='text'>Getting Ionic and Android Studio up and running on OS X Mavericks</title><content type='html'>&lt;style type="text/css"&gt;pre.CICodeFormatter{  font-family:arial;  font-size:12px;  border:1px dashed #CCCCCC;  width:99%;  height:auto;  overflow:auto;  background:#f0f0f0;  line-height:20px;  background-image:URL(http://3.bp.blogspot.com/-Ig2j8MawW3k/U8hoqn7S57I/AAAAAAAAuW0/rDZfUfHuFVo/s1600/codebg.gif);  padding:0px;  color:#000000;  text-align:left; } pre.CICodeFormatter code{   color:#000000;   word-wrap:normal;   padding-left:3px } &lt;/style&gt; &lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-soeRLgIYNjc/U8elRat9yJI/AAAAAAAAuWg/LY4DoLG81nU/s1600/small_7975953800.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: left;"&gt;&lt;img border="0" src="http://4.bp.blogspot.com/-soeRLgIYNjc/U8elRat9yJI/AAAAAAAAuWg/LY4DoLG81nU/s1600/small_7975953800.jpg" height="320" width="235" /&gt;&lt;/a&gt;&lt;/div&gt;I started an adventure into Ionic Framework and Android Studio on a shiny new MacBook Pro today.&lt;br /&gt;&lt;br /&gt;&lt;a href="http://ionicframework.com/" target="_blank"&gt;Ionic Framework&lt;/a&gt; is a front-end framework for building hybrid mobile applications. Ionic leverages the incredibly successful &lt;a href="https://angularjs.org/" target="_blank"&gt;AngularJS&lt;/a&gt; JavaScrpt framework and &lt;a href="http://cordova.apache.org/" target="_blank"&gt;Cordova&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;The idea behind hybrid applications being you can take your skills a aweb developers and build fully fledged installed web applications. The other big advantage of of the hybrid approach coupled with the likes of Cordova is you can technically build one application and deploy to multiple eco-systems. IOS, Android, Windows Phone Blackberry and many more.&lt;br /&gt;&lt;br /&gt;Uuurrrgghhh!! not such a simple experience so posting the process here in hope it may help someone else. There are a few steps below but excluding download times this is a 5 minute job so please have a go.&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Install NodeJS.&lt;/h3&gt;Use &lt;a href="http://brew.sh/" target="_blank"&gt;homebrew&lt;/a&gt;&amp;nbsp;or get the package&amp;nbsp;&lt;a href="http://nodejs.org/" target="_blank"&gt;here&lt;/a&gt;&lt;br /&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ brew install node  &lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Install Android Studio from &lt;a href="https://developer.android.com/sdk/installing/studio.html" target="_blank"&gt;here&lt;/a&gt;. Also install your preferred &lt;a href="http://developer.android.com/sdk/installing/adding-packages.html" target="_blank"&gt;sdks&lt;/a&gt;&lt;/h3&gt;After installation to make Android Studio play nice you need the tools and platform-tools on your path. A detailed post on how to manage your path &lt;a href="http://coolestguidesontheplanet.com/add-shell-path-osx/" target="_blank"&gt;here&lt;/a&gt;, but cheat sheet below. &lt;i&gt;You may be prompted to install Java SDK, Do it&lt;/i&gt;&lt;br /&gt;&lt;h3&gt;Create/edit .bash_profile if you don't have one.&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ nano ~/.bash_profile&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Add the following lines to your .bash_profile to add sdk/tools and sdk/platform-tools to your path&lt;/h3&gt;&lt;div&gt;Tip: ctrl-o to save and ctrl-x to exit&lt;/div&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;export PATH="$PATH:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Reload your .bash_profile&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ . ~/.bash_profile&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Create an AVD (Android Virtual Device)&amp;nbsp;&lt;/h3&gt;This is the emulator to be used for development. You can use the GUI or the command line. First list the possible devices based on installed SDK's. Then create it. &lt;a href="http://developer.android.com/tools/devices/managing-avds-cmdline.html" target="_blank"&gt;More detailed instructions on creating AVD's&lt;/a&gt;&lt;br /&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ android list targets&lt;br /&gt;$ android create avd -n &amp;lt;name&amp;gt; -t &amp;lt;targetID&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Install &lt;a href="http://cordova.apache.org/" target="_blank"&gt;Cordova&lt;/a&gt; &amp;amp;&amp;nbsp;&lt;a href="http://ionicframework.com/"&gt;Ionic Framework&lt;/a&gt; (use sudo if you need to) it is simply an npm package&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ npm install -g cordova ionic&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Create your first app by going to your regular code/projects folder and executing the following&lt;/h3&gt;&lt;div&gt;Tip: During this process operations failed as apparently &lt;a href="http://ant.apache.org/" target="_blank"&gt;Ant&lt;/a&gt; is no longer included in OS X. You can easily remedy that by installing Ant. I found this &lt;a href="http://stackoverflow.com/a/19495611" target="_blank"&gt;SO thread&lt;/a&gt;&amp;nbsp;useful.&lt;/div&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ ionic start awesomeapp tabs&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Hop into you app folder&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ cd awesomeapp&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Add android platform to your application&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ ionic platform add android&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Build the application&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ ionic build android&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Finally run it!!&lt;/h3&gt;&lt;pre class="CICodeFormatter"&gt;&lt;code class="CICodeFormatter"&gt;$ ionic emulate android&lt;/code&gt;&lt;/pre&gt;&lt;h3&gt;Additional reads&lt;/h3&gt;&lt;a href="http://thechangelog.com/install-node-js-with-homebrew-on-os-x/" target="_blank"&gt;Installing NodeJS with Homebrew&lt;/a&gt;&lt;br /&gt;&lt;a href="http://developer.android.com/tools/devices/managing-avds-cmdline.html" target="_blank"&gt;Managing Android Virtual Devices from the command line&lt;/a&gt;&lt;br /&gt;&lt;a href="https://software.intel.com/en-us/blogs/2014/03/06/now-available-android-sdk-x86-system-image-with-google-apis" target="_blank"&gt;Note on boosting performance. Intel have provided an image that dramatically improves performance of the emulator.&lt;/a&gt;&lt;br /&gt;&lt;a href="http://coolestguidesontheplanet.com/add-shell-path-osx/" target="_blank"&gt;Modifying shell path on MAC OS X 10.9&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Feedback&lt;/h3&gt;&lt;div&gt;Not helpful? Or if you find any errors please leave a comment or get me on&amp;nbsp;&lt;a href="https://twitter.com/terrencebenade" target="_blank"&gt;@terrencebenade&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;photo credit: &lt;a href="https://www.flickr.com/photos/navaneethkn/7975953800/"&gt;Navaneeth K N&lt;/a&gt; via &lt;a href="http://photopin.com/"&gt;photopin&lt;/a&gt; &lt;a href="http://creativecommons.org/licenses/by/2.0/"&gt;cc&lt;/a&gt;</content><link rel='replies' type='application/atom+xml' href='http://aniteration.blogspot.com/feeds/6121431048263498150/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2014/07/getting-ionic-and-android-studio-up-and.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/6121431048263498150'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/6121431048263498150'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/2014/07/getting-ionic-and-android-studio-up-and.html' title='Getting Ionic and Android Studio up and running on OS X Mavericks'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://4.bp.blogspot.com/-soeRLgIYNjc/U8elRat9yJI/AAAAAAAAuWg/LY4DoLG81nU/s72-c/small_7975953800.jpg' height='72' width='72'/><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-8650209211778411725</id><published>2014-03-13T18:01:00.001+11:00</published><updated>2014-03-14T16:48:06.497+11:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Get off the bus - Embrace agility</title><content type='html'>This post is inspired by my sailing coach. Prior to the weekends sailing he sends out an email which includes a humorous synopsis of the previous weeks racing followed by some some inspiring and comical words of wisdom for the coming week.&lt;br&gt;&lt;br&gt;This week he happily plagiarised the words of an Australian Americas skipper.&lt;br&gt;&lt;ul&gt;&lt;li&gt;"Stack the deck in your favour. In sailing, you've got to leverage every possible advantage you can in your effort to beat the competition. If you aren't you can bet your competitors are".&lt;/li&gt;&lt;li&gt;"Be prepared to change course quickly. Sailing is a multidimensional activity where change is a constant."&lt;/li&gt;&lt;li&gt;"When faced with the rapidly shifting ocean currents and winds one must be flexible enough to quickly adapt and take advantage of those changes."&lt;/li&gt;&lt;li&gt;"Push the limits.  Just go for it!"&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Now shiver me timbers that is exactly what we are trying to achieve not only in modern software development but adaptive industry of any sort. The opportunity to change direction and act in a rapid and sustainable manner.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If I have managed to keep you until this point I am honoured to finally get the chance to elaborate on the title of "Get off the bus - Embrace agility".&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Firstly a bus is a beautiful thing.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;It is a highly efficient means of multiple passenger transport&lt;/li&gt;&lt;li&gt;It runs to a schedule and delivers a constant flow&lt;/li&gt;&lt;li&gt;It can be social&lt;/li&gt;&lt;li&gt;It can keep a steady pace&lt;/li&gt;&lt;li&gt;It can hinder the flow of traffic&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Quick explanation of the last point. When you are the big mighty bus, in your market you can use your size to your advantage and block the flow of competitors to your market. Be it through your financial might, acquisitions, channel marketing or brand positioning...some of the obvious advantages.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lets visualise a bus hindering traffic. At a minimum on a busy road a bus just needs travel slowly and by default that will control the speed of all behind it. Should a car try to pass the bus just needs speed up and make the passing manoeuvre dangerous and possibly the car attempting the pass will abandon.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;From my rather biased story one can see a bus is a pretty effective devise for controlling the opposition. But it is not particularly nimble, it is really just its bulk that is its defence capability.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;So what about a Ferrari or an Aston Martin, could they pass a bus in busy traffic? I'm no stunt driver but I am going to hazard a guess at yes. So finally a win for agile and nimble. But what happens when the bus chooses not to play by the rules and decides to swerve into the path of the passing sports car. There is not much the car can do other than yet again abandon and join all the queue. Waiting for the bus to stop or change course.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;At this point one can concede the bus is a pretty compelling model for delivering features and products in a sustained manner while keeping the little guy at bay.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What does the future for the bus look like when two cars attempt to pass the bus at the same time. The bus may veer in front of the Ferrari but the Lamborghini well aware of the bus drivers style has already started speeding into the gap the bus left behind, and before the bus can react the Lamborghini is well ahead.&lt;br&gt;&lt;br&gt;Agility is not about a series of ceremonies - stand-ups, retrospectives and showcases. Often those new to Agile development grab the &lt;a href="https://www.scrum.org/Scrum-Guide"&gt;Scrum guide&lt;/a&gt; and fastidiously follow it hoping for monumental improvement. This is not the worst way to start but if you are on a bus remember you want be changing direction any time soon.&lt;br&gt;&lt;br&gt;For me agility is about culture, common sense, collaboration, measurement and innovation.&lt;br&gt;&lt;br&gt;Changing culture is a hearts and minds exercise. Telling people the way they have done something for years or even their entire career is no longer of value is no trivial task. To get off the bus which is safe and comes with its own driver and known destination with pretty consistent ETA is not for the faint hearted. it takes impassioned and sincere leadership. You cannot fake culture.&lt;br&gt;&lt;br&gt;Your innovation and experimentation need be paired with measurement or how else are you to know if the effort had the desired outcome. If you want to inspire a group of super smart people to go above and beyond for your cause....couple your request with data and facts not whims and hunches. Everyone thinks they are a great proxy for your users, but luckily data never lies.&lt;br&gt;&lt;br&gt;Your engineering needs facilitate constant delivery of valuable features of high quality. If you do nothing other than get your engineering right you will be more agile than most.&lt;br&gt;&lt;br&gt;Automated testing, continuous integration and ultimately continuous delivery will give you endless opportunity to pivot, experiment and innovate. For my last bus reference, don't put things in your stack that turn you into a bus. If it cant be built, test and deployed in minutes...at worst hours, you really really need to put a lot of thought into the justification. Because that bus one day will be blocking your own initiatives.&lt;br&gt;&lt;br&gt;A feature serves no purpose in your source control system or on a portfolio diagram at a programme management meeting. Get it in front of a customer NOW, just go for it and get ready to iterate. That is the promise of being agile.&lt;br&gt;&lt;br&gt;&lt;span style="background-color: white; color: #555555; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 19.5px;"&gt;Agile is more than just Scrum. Agile is more than just cross-functional teams. Agile is a system of managing work and continuously improving that system to manage the flow and delivery engine behind that work. It’s about more than just the people; it’s about the system itself. If you are struggling with Agile for reasons akin to those mentioned here, I hope I have inspired you to take a look at how your&amp;nbsp;&lt;/span&gt;&lt;i style="background-color: white; border: 0px; color: #555555; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 19.5px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"&gt;organization&lt;/i&gt;&lt;span style="background-color: white; color: #555555; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 19.5px;"&gt;prioritizes projects and how you manage disseminating the prioritized work to your development teams. If you are not managing a Kanban portfolio board, I challenge you to do it (whether it is on sticky notes on a board, Trello or some more sophisticated tool, just do it)! If you are good at prioritizing across the organization or are running a Kanban at the portfolio level, how can it be improved?&lt;/span&gt;&lt;br&gt;&lt;span style="background-color: white; color: #555555; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 19.5px;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;http://agilebench.com/blog/the-surprising-thing-about-quality-in-agile-projects&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</content><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2014/03/get-off-bus-embrace-agility.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/8650209211778411725'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/8650209211778411725'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-9017840560689601537</id><published>2014-02-05T19:18:00.001+11:00</published><updated>2014-02-05T19:33:20.717+11:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='agile'/><category scheme='http://www.blogger.com/atom/ns#' term='software development'/><category scheme='http://www.blogger.com/atom/ns#' term='self managed'/><category scheme='http://www.blogger.com/atom/ns#' term='leadership'/><title type='text'>The value of context in self-managed Agile teams.</title><content type='html'>&lt;h2&gt;The value of context in self-managed Agile teams.&lt;/h2&gt;&lt;div&gt;I was fortunate enough recently to shepherd a team idea. I say fortunate as we really do practise and value the notion of self-management. I do all I can to not be involved in decisions about how things get done.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;In some of my regular one-on-ones a common theme coming through was brewing about a desire to work from home. I for one think working from home is a great way to get things done but in Agile teams practising pairing and working hard on cross-skilling on some rather diverse stacks not sitting next to each other can make things a little tough. Yes there are tools and means to get around this but we are not quite there yet.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Back to "Hey can I work from home on .......?"&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;My answer was simple, ask your team mates. This response was met with some initial odd looks followed by the ah ha moment. "Oh yes we are a self-managed team".&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Marcel our Agile coach was immediately onto it and suggested I set some formalised&amp;nbsp;&lt;b&gt;context&lt;/b&gt;.&lt;b&gt;&amp;nbsp;&lt;/b&gt;I loved this approach as I was not tasked with setting rules or measurements but just context. For this scenario it was s&lt;span style="font-family: inherit;"&gt;imple and I would like to share it as follows.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="font-family: inherit;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;·        Teams must reach a majority agreement on the how. (who on what days and how often)&lt;br /&gt;·        Run a trial for at least 2 iterations (barring catastrophe I promise not to intervene or assess during this time)&lt;br /&gt;·        Be ready to talk honestly and concisely to our stakeholders about why you feel this is a great evolution for the team.&lt;br /&gt;·        There must be no significant compromise to workplace enjoyment. In other words it must be no harder to get things done now that team members are not in the office.&lt;br /&gt;·        “I was working from home” must never be a reason for failure, we are just not ready for that yet.&lt;br /&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;That was it! The team still self manages but with &lt;b&gt;context &lt;/b&gt;rather than rules or boundaries. Insanely smart people with a desire to succeed and grow get to choose exactly how that is achieved in an engaging and empowering manner.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;In hindsight I guess the team could have worked out the context for themselves too....hopefully that will be the case next time.&lt;/div&gt;</content><link rel='replies' type='application/atom+xml' href='http://aniteration.blogspot.com/feeds/9017840560689601537/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2014/02/the-value-of-context-in-self-managed.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/9017840560689601537'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/9017840560689601537'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/2014/02/the-value-of-context-in-self-managed.html' title='The value of context in self-managed Agile teams.'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-7368844179628848092</id><published>2014-01-20T08:27:00.002+11:00</published><updated>2014-01-20T08:27:57.650+11:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='agile'/><category scheme='http://www.blogger.com/atom/ns#' term='software development'/><category scheme='http://www.blogger.com/atom/ns#' term='pace'/><category scheme='http://www.blogger.com/atom/ns#' term='lean'/><category scheme='http://www.blogger.com/atom/ns#' term='technical debt'/><category scheme='http://www.blogger.com/atom/ns#' term='opportunity'/><title type='text'>The difference between realisation and inevitability is opportunity.</title><content type='html'>With time comes learning. Couple your learning with some intuition and your get reasonable foresight. As technologists</content><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2014/01/the-difference-between-realisation-and.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/7368844179628848092'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/7368844179628848092'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-2499438905364285922</id><published>2013-07-15T22:41:00.000+10:00</published><updated>2013-07-15T22:41:33.983+10:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='agile'/><category scheme='http://www.blogger.com/atom/ns#' term='kanban'/><category scheme='http://www.blogger.com/atom/ns#' term='self managed'/><category scheme='http://www.blogger.com/atom/ns#' term='technical debt'/><category scheme='http://www.blogger.com/atom/ns#' term='scrum'/><category scheme='http://www.blogger.com/atom/ns#' term='software teams'/><title type='text'>Agile team self selection - Part 1</title><content type='html'>&lt;h3&gt;Excited or Anxious?&lt;/h3&gt;&lt;div&gt;Tomorrow we will be embarking on an experiment in truly engaging and Agile management and it is causing me endless anxiety or excitement not sure yet.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We are going to give the developers the opportunity to create their own fixed teams.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Working in a shared services department of about 40 developers we are constantly battling the multiple demand channels of a billion dollar organisation.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Problems include multiple product owners, backlogs, priorities, styles and technologies. Cross-skilling is nigh on impossible as our technology stack is broad and specialised.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Historically we have compiled and disassembled sprint teams to meet demand but over time this process has become unwieldy and calls for endless management, grooming and prioritisation negotiation. Last time I checked we developers hated meetings.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Working in three week sprints always ending in a release has been fantastic and having good rhythm has been engaging and effective but having inconsistent team composition has meant any real sense of predictability has been wavered.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I also noticed over time the contributions to reduction in technical debt, build pipelines and most other engineering innovations started to lessen. You don't need to have spent too much of your life building software to learn to appreciate the value and security of an effective build pipeline. Add to that other sensible practices like automated test coverage, performance testing and anything else that will guarantee some element of quality being built in. Somehow or for some reason having constantly evolving teams and constantly broken and reformed pairs seemed to impact the quality of our engineering.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Now I am happy to entertain the fact we have been insanely busy the past year and one can be forgiven for taking a few short cuts but we all know one day those debts must be paid or the future can get real gloomy.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h3&gt;Tomorrow is the big day.&lt;/h3&gt;&lt;div&gt;As a management team we have spent months debating how and what. The plan is to put everyone in a big room and literally tell tell they cant leave until we have formed 4 new fixed teams that will work together for the foreseeable future. There will be a few rules but they will be as non-restrictive as possible. Other than the fact the teams will need to have a certain make-up.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Example Team A should = (3 web developers, 2 CRM experts, 1 QA, 1 BA, 1 Middleware)&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The idea is you mull around the room pitching to your colleagues why you should be in their team or the other way round, where a group are going round the room enticing others to join their team.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Just writing this post has started to fire up the anxiety again, I mean what could go wrong??? My worst fear is someone feels left out or unloved, but I work with a pretty incredible bunch of people and I cant imagine anyone letting that happen but who knows.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Wow my dream of what being a truly self-managed agile team may be realised. Oops if this goes too well I may finally have eroded my value to the organisation and end up looking for a new role. A small price to pay.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;My number one take away from &lt;a href="http://melbourne.yowconference.com.au/"&gt;YOW &lt;/a&gt;last year was "hey managers get out of the way!" no point buying the ticket if you see no value in the content.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Lastly thank you to &lt;a href="http://www.marcelvanhove.com/"&gt;Marcel van Hove&lt;/a&gt; for giving me the courage to take all I have toiled so hard to create in the past 3 years and throw it up in the air and see how it lands.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;</content><link rel='replies' type='application/atom+xml' href='http://aniteration.blogspot.com/feeds/2499438905364285922/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2013/07/agile-team-self-selection-part-1.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/2499438905364285922'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/2499438905364285922'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/2013/07/agile-team-self-selection-part-1.html' title='Agile team self selection - Part 1'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry><entry><id>tag:blogger.com,1999:blog-4694351430951466803.post-2211988250325224488</id><published>2013-07-15T21:20:00.000+10:00</published><updated>2013-07-16T22:17:23.477+10:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='hiring'/><category scheme='http://www.blogger.com/atom/ns#' term='agile'/><category scheme='http://www.blogger.com/atom/ns#' term='resume'/><category scheme='http://www.blogger.com/atom/ns#' term='recruiting'/><category scheme='http://www.blogger.com/atom/ns#' term='talent'/><title type='text'>Why cant software developers sell?</title><content type='html'>&lt;h3&gt;The suffering&lt;/h3&gt;&lt;br /&gt;I hate to pigeon developers as much as the next person. In this case I hope I may be forgiven.&lt;br /&gt;&lt;br /&gt;After a rough week recruiting I was nearly devoured by my own boredom today. What is the world thinking sending in eight page documents telling me how they volunteered in the canteen while at university in the nineties.&lt;br /&gt;&lt;br /&gt;As a software development manager who knows, and has had the honour of reading probably thousands of resumes in his career. Please developers SELL SELL SELL.&lt;br /&gt;&lt;br /&gt;I say reading resume's is an honour because in my opinion there is no greater responsibility an organisation may bestow upon you. The recruiting decisions you make as a manager may well end up costing the organisation millions of dollars for many years to come, so it is an important and honourable burden to bear.&lt;br /&gt;&lt;br /&gt;So my fellow developers I am pretty sure what I am about to say will appear on the web a million times over but here is my flavour because apparently you aren't reading the rest of those perfectly crafted articles trying ever so hard to help you find the next amazing role.&lt;br /&gt;&lt;br /&gt;2 versions of my imposing wisdom, the "speed date" and "the chance encounter in a lift".&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Speed date.&lt;/h3&gt;Please approach your resume like a two minute opportunity to wow my mind. Seriously that is how the world should write a resume. I am a slow reader so two minutes accounts for a page at most. If you cannot tell me within the first page of your beautiful prose how awesome you are what chance do you have by page two I am already looking at the girl on the next table.&lt;br /&gt;&lt;br /&gt;It needs to all happen and happen immediately. Tell me why what you did just yesterday is what I cannot live without in my team tomorrow. It cannot be simpler than that!&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;The chance encounter in a lift&lt;/h3&gt;&lt;div&gt;You get in a lift and out the corner of your eye you notice my famous face. Wow can it be true here you are with five floors of lift journey time to tell me how fantastic you are.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Do you start with in "1994 I attended a school camp where I excelled at fire making and at an early age displayed a natural affinity with problem solving". Barf!!&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Hell no, you would rather tell me how you ripped the guts out of an old legacy application and totally re-crafted it in NodeJS over the weekend because you were bored and you think NodeJS is going to change the world. Right or wrong that sentence tells me you have an opinion are willing to have a go and truly love what you do. Get that across and do it quickly.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h3&gt;In closing.&amp;nbsp;&lt;/h3&gt;&lt;div&gt;The world has gone social. Especially if you have a career in web development have a web presence. At a minimum have a LinkedIn profile. If you cannot have a public page on the web talking about how great you are at your job what are you hiding?&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;SELL SELL SELL. Leave me with no choice but having to meet you!&lt;br /&gt;&lt;br /&gt;&lt;a href="http://myob.com.au/myob/careers-1258090877347"&gt;http://myob.com.au/myob/careers-1258090877347&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content><link rel='replies' type='application/atom+xml' href='http://aniteration.blogspot.com/feeds/2211988250325224488/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://aniteration.blogspot.com/2013/07/why-cant-software-developers-sell.html#comment-form' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/2211988250325224488'/><link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/4694351430951466803/posts/default/2211988250325224488'/><link rel='alternate' type='text/html' href='http://aniteration.blogspot.com/2013/07/why-cant-software-developers-sell.html' title='Why cant software developers sell?'/><author><name>Terrence Benade</name><uri>https://plus.google.com/100026927809649545028</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='//lh4.googleusercontent.com/-O-e6tXqgC8o/AAAAAAAAAAI/AAAAAAAAuYA/o4MFWzOxEaI/s512-c/photo.jpg'/></author><thr:total>0</thr:total><gd:extendedProperty name='commentSource' value='1'/><gd:extendedProperty name='commentModerationMode' value='FILTERED_POSTMOD'/></entry></feed>
