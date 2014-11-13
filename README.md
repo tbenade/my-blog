@@ -1,4 +1,4 @@
 my-blog
 =======
 
-(http://terrence.benade.com.au)
+[http://terrence.benade.com.au]
