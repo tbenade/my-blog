@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why can't developers sell"
+title:  "Why can't developers sell?"
 date:   2013-07-15 21:20:01
 categories: 
 ---
