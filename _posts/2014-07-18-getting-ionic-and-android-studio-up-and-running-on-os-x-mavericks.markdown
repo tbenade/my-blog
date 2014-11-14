@@ -17,54 +17,68 @@ Uuurrrgghhh!! not such a simple experience so posting the process here in hope i
 ## Install NodeJS.
 
 Use [homebrew](http://brew.sh/) or get the [package](http://nodejs.org/).
-$ brew install node  
 
-[Install Android Studio](https://developer.android.com/sdk/installing/studio.html). Also install your preferred [sdks](http://developer.android.com/sdk/installing/adding-packages.html)
+```
+$ brew install node  
+```
+
+## [Install Android Studio](https://developer.android.com/sdk/installing/studio.html). Also install your preferred [sdks](http://developer.android.com/sdk/installing/adding-packages.html)
 
 After installation to make Android Studio play nice you need the tools and platform-tools on your path. A [detailed post on how to manage your path](http://coolestguidesontheplanet.com/add-shell-path-osx/), but cheat sheet below. You may be prompted to install Java SDK, Do it
 
 ## Create/edit .bash_profile if you don't have one.
 
+```
 $ nano ~/.bash_profile
-Add the following lines to your .bash_profile to add sdk/tools and sdk/platform-tools to your path
+```
+
+## Add the following lines to your .bash_profile to add sdk/tools and sdk/platform-tools to your path
 
 Tip: ctrl-o to save and ctrl-x to exit
 export PATH="$PATH:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"
 Reload your .bash_profile
 
 $ . ~/.bash_profile
-Create an AVD (Android Virtual Device) 
+
+## Create an AVD (Android Virtual Device) 
 
 This is the emulator to be used for development. You can use the GUI or the command line. First list the possible devices based on installed SDK's. Then create it. More detailed instructions on creating AVD's
 $ android list targets
 $ android create avd -n <name> -t <targetID>
-Install Cordova & Ionic Framework (use sudo if you need to) it is simply an npm package
+
+## Install Cordova & Ionic Framework (use sudo if you need to) it is simply an npm package
 
 $ npm install -g cordova ionic
-Create your first app by going to your regular code/projects folder and executing the following
+
+## Create your first app by going to your regular code/projects folder and executing the following
 
 Tip: During this process operations failed as apparently Ant is no longer included in OS X. You can easily remedy that by installing Ant. I found this SO thread useful.
 $ ionic start awesomeapp tabs
-Hop into you app folder
+
+## Hop into you app folder
 
 $ cd awesomeapp
-Add android platform to your application
+
+## Add android platform to your application
 
 $ ionic platform add android
-Build the application
+
+## Build the application
 
 $ ionic build android
-Finally run it!!
+
+## Finally run it!!
 
 $ ionic emulate android
-Additional reads
+
+## Additional reads
 
 Installing NodeJS with Homebrew
 Managing Android Virtual Devices from the command line
 Note on boosting performance. Intel have provided an image that dramatically improves performance of the emulator.
 Modifying shell path on MAC OS X 10.9
 
-Feedback
+## Feedback
 
 Not helpful? Or if you find any errors please leave a comment or get me on @terrencebenade
 
