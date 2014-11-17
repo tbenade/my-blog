@@ -2,7 +2,9 @@
 layout: post
 title:  "Agile team self selection Part-1"
 date:   2013-07-15 21:41:01
-categories: 
+comments: true
+excerpt: "Excited or anxious? An experiment ni team self-selection"
+tags: 
 ---
 
 # Excited or Anxious?

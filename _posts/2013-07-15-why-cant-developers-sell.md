@@ -2,7 +2,9 @@
 layout: post
 title:  "Why can't developers sell?"
 date:   2013-07-15 21:20:01
-categories: 
+excerpt: "Its your career its time to man up and own it."
+tags:
+comments: true
 ---
 
 
@@ -41,4 +43,4 @@ The world has gone social. Especially if you have a career in web development ha
 
 SELL SELL SELL. Leave recruiters with no choice but having to meet you!
 
-http://www.seek.com.au/work-for-seek
+[Work for SEEK](http://www.seek.com.au/work-for-seek)
