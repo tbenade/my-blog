@@ -17,3 +17,6 @@ kramdown:
 
 exclude: [vendor]
 
+sass:
+  style: compressed
+
