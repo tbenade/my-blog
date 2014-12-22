@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: terrencebenade
 github_username:  tbenade
 ga_tracking_code: UA-56778355-1
-
+timezone: Australia/Melbourne
 
 # Build settings
 markdown: kramdown
