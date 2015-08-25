@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Be selfish"
-date:   2015-09-25 20:00:01
+date:   2015-08-25 20:00:01
 excerpt: "Worry about yourself and the rest will take care of itself"
 tags:
 comments: true
