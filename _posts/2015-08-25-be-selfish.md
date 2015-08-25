@@ -19,7 +19,7 @@ In a very reasonable and inspiring conversation today with some of the smartest 
 
 If we play this back as technologists who's near every thought revolves around pragmatic problem solving we would never allow our customers to make bizarre loyalty based decisions if we could help it. We take endless pride in building things fit for purpose and of outstanding quality but somehow right now the .Net community in so many ways just seems so resistant to change and this is where I want to call out "be selfish".
 
-As a developer you owe it to yourself and your employer to be selfish every day and make sure some part of your day is about your evolution, your honing of skills and mindset. Because as much as your product manager may want you to deliver that next story they also want you to be making sure that your craft is constantly evolving in a manner that will support their grandiose aspirations in the future.
+As a developer you owe it to yourself and your employer to be selfish every day and make sure some part of your day is about your evolution, honing of skills and mindset. Because as much as your product manager may want you to deliver that next story they also want you to be making sure that your craft is constantly evolving in a manner that will support their grandiose aspirations in the future.
 
 How? Start working on your story telling. Work on your leadership alliances. Once you can tell meaningful and compelling stories about the value of skills and development and you have some leadership alliances in place it comes down to how often you feel the need to play that card. Creating a culture of ardent if not maniacal approach to personal as a developer starts with you and your organisation will always be richer for your legacy. Be selfish!
 
