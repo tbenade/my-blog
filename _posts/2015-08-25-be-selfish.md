@@ -26,9 +26,23 @@ If I can use functional programmings reemergence into the mainstream as a useful
 
 I implore you to remember how you ended up here. You love solving problems, your brain aches for the challenge. For goodness sake don't waste it on way you know now, spend it on finding better, simpler and faster from anywhere. Please believe me when I tell you that the next great solution is not always going to be on your favourite vendors homepage.
 
-New and shiny is the new norm. There are many great articles about not picking new and shiny and being still in your choices. That may work for those who are content with their pace but be sure you are comparing to your competitor not your own legacy.
+New and shiny is the new norm. There are many great articles about not picking new and shiny and being still in your choices. That may work for those who are content with their agility but be sure you are comparing to your competitors not your own legacy.
 
-Be selfish, you only get one crack at this so make it beautiful, feed that curiosity and make sure to inspire those around you.
+Be selfish, you only get one crack at this life so make it beautiful, feed that curiosity and make sure to inspire those around you.
 
+PS: I have two hours of commute a day so listen to a lot of podcasts here are some of my favourite selfish audio purveyors.
 
-[Work for SEEK](http://www.seek.com.au/work-for-seek)
+[Software Engineering Radio](http://www.se-radio.net/)
+[The Bike Shed](http://bikeshed.fm/)
+[Ruby Rogues](https://devchat.tv/ruby-rogues/)
+[DevOps Cafe](http://devopscafe.org/)
+[.Net Rocks](https://www.dotnetrocks.com/)
+[The Change log](https://changelog.com/)
+[The Ship Show](http://theshipshow.com/)
+[Arrested DevOps](http://www.arresteddevops.com/)
+[JavaScript Jabber](https://devchat.tv/js-jabber)
+[Giant Smashing Robots](http://giantrobots.fm/)
+[NodeUp](http://nodeup.com/)
+[Functional Geekery](http://www.functionalgeekery.com/)
+
+[Looking for somewhere to be selfish come and join us at SEEK](http://www.seek.com.au/work-for-seek)
